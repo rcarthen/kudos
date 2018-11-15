@@ -1,15 +1,10 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const KudosSchema = new Schema({
-  nameSender:String,
-  nameReceiver: String,
-    title: String,
-  body: String,
+let kudosSchema = new Schema({
+    title:String,
+    body:String
 });
-///work
-const kudos = mongoose.model("kudos", KudosSchema);
 
+const kudos = mongoose.model('kudos', kudosSchema);
 module.exports = kudos;
-
-
