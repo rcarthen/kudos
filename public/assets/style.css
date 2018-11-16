@@ -1,0 +1,39 @@
+#affirmation{
+    background-color: #C9F0FF;
+    color: rgb(94, 94, 94);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#send{
+    background-color:  #99D3DF;
+    color: whitesmoke;
+    size: 10px;
+    margin: 1.5%;
+  }
+
+  #receiver{
+    background-color:  #99D3DF;
+    color: whitesmoke;
+    size: 10px;
+    margin: 1.5%;
+  }
+
+  #modalfooter{
+      background-color: #99D3DF;
+  }
+
+  #title{
+      margin: 20px;
+  }
+
+  #bodyaffirmation{
+
+    margin: 20px;
+  }
+
+
+
+  #send, #receiver{
+      display: inline;
+  }

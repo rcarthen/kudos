@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I AM LIGHT</title>
+</head>
+
+<body background="https://i.ytimg.com/vi/f8tWWnrkvvE/maxresdefault.jpg">
+
+    <div class="container">
+        <h3 class="brandname">I AM.</h3>
+        <h6>Affirmations for the Soul</h6>
+
+    </div>
+    <div class=container>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1" id=affirmation>Give An Affirmation</a>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+
+        <div class="modal-content">
+            <div class=container>
+                <h5 id="share"> Share An Affirmation</h5>
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown1' id="send" btn-small>Select Sender</a>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Joy</a></li>
+                    <li><a href="#!">Love</a></li>
+                    <li><a href="#!">Peace</a></li>
+                    <li><a href="#!">Hope</a></li>
+                </ul>
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown1' id="receiver" btn-small>Select Receiver</a>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Faith</a></li>
+                    <li><a href="#!">Love</a></li>
+                    <li><a href="#!">Peace</a></li>
+                    <li><a href="#!">Hope</a></li>
+                </ul>
+                <hr>
+            </div>
+            <div class=container>
+                <div>
+                    <input id="title" type=text/ placeholder="Title">
+                </div>
+                <div>
+                    <textarea id="bodyaffirmation" type="text" id="kudo-body" rows="5" placeholder=" Type Affirmation"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-small" id="modalfooter">Send Affirmation</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-small" id="modalfooter">Close</a>
+        </div>
+    </div>
+
+    <!-- <div class="row" id="affirmationDisplay">
+            <div class="col s12 m6">
+              <div class="card white darken-1">
+                <div class="card-content black-text">
+                  <span class="card-title">Affirmation Title</span>
+                  <hr>
+                  <h6>From:</h6>
+                  <h6>To:</h6>
+                  <p>Affirmation Body</p>
+                </div> -->
+
+    <!-- <div class=container>
+<footer>  <h6>Peace of Mind, Self-Love, Elevation</h6></footer>
+</div> -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/app.js"> </script>
+</body>
+
+</html>
